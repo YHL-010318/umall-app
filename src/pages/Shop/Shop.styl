@@ -1,0 +1,72 @@
+@import("../../stylus/index.styl");
+.shop 
+    .item 
+        width: 100vw
+        overflow hidden
+        
+        .inner
+            width: 9rem
+            height: 2rem 
+         
+            box-sizing: border-box
+            overflow hidden
+            margin: $margin 0
+            transition: all 0.3s
+            .checkbox 
+                width: 0.3rem
+                height: 0.3rem
+                float left
+                margin: 0.8rem $margin
+               
+            .imgbox
+                float left
+                width 2rem
+                height 2rem
+            .info   
+                float left
+                margin-left $margin 
+                .goodsname
+                    font-size $h2
+                .prices
+                    margin-left 3rem
+                    margin-bottom $margin
+                .num
+                    span 
+                        padding $padding $margin
+                        border: $borderWidth solid $font-color3
+                .allprice
+                    margin-top $margin 
+                    padding-top $margin
+                          
+
+            .del
+                width: 1rem
+                background: $primary 
+                color: $font-fff 
+                text-align: center
+                line-height: 2rem
+                float right
+        .inner-show-del
+            margin-left: -1.8rem
+    .footer
+        width: 100vw 
+        height: $footerHeight 
+        position fixed 
+        background: $font-fff 
+        left 0 
+        bottom: $footerHeight2 
+        border-top: $borderWidth solid $font-color3
+        box-sizing: border-box
+        padding-top $padding
+        img 
+            width: 0.3rem
+            height: 0.3rem
+        .quanxuan 
+            float left
+            margin 0 $margin
+        .edit 
+            float left 
+            margin 0 $margin
+        .price 
+            float left
+            margin $margin  $margin

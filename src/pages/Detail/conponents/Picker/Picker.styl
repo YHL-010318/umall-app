@@ -1,0 +1,45 @@
+@import("../../../../stylus/index.styl");
+.picker 
+    width: 100vw 
+    height: 100vh
+    background: rgba(0,0,0,0.5)
+    position fixed
+    left 0
+    top: 0
+    .con
+        width: 100vw 
+        height: 40vh
+        overflow-y: auto
+        background: $font-fff
+        position absolute
+        left 0 
+        bottom: 0
+        .con-top
+            overflow hidden
+            .img-parent
+                float left
+                width: 2rem 
+                height: 2rem
+                img
+                    width: 100% 
+                    height: 100%
+            .goodsname
+                float left
+                margin $margin 
+                padding-top $margin
+                font-size $h1
+
+        .spec-title
+            font-size: $h1
+            margin $margin 
+            
+        .btns
+            overflow hidden
+            span 
+                float left
+                padding $padding $margin 
+                margin $margin 
+                border $borderWidth solid $font-color2 
+            .select
+                border $borderWidth solid $primary
+                color $primary

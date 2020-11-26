@@ -1,0 +1,37 @@
+@import("../../stylus/index.styl");
+.cate 
+    display: flex
+    .left 
+        width: 2rem
+        div 
+            text-align: center
+            font-size: $h3 
+            color: $font-color1
+            line-height: $headerHeight
+        .select
+            border-left $borderWidth solid $primary
+    .right
+        flex 1
+        overflow hidden
+        .item 
+            width: 50% 
+            float left
+            .con
+                margin: $margin
+                height: 2rem
+                border-radius: $margin
+                overflow hidden
+                position relative
+                img 
+                    width 100% 
+                    height: 100% 
+                div
+                    position absolute
+                    left 0
+                    bottom: 0
+                    background: $primary
+                    color: $font-fff
+                    width: 100% 
+                    text-align: center 
+                    line-height: 0.4rem
+

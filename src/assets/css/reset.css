@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.2rem;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    -webkit-appearance:none;
+  }
+input:focus {
+    border: none;
+  }
+a{
+    text-decoration: none;
+    color: #333;
+  }
